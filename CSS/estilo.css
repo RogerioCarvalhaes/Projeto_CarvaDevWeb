@@ -1,0 +1,151 @@
+/* BANNER */
+.container-banner {
+    max-width: 100%;
+    height: auto;
+    background-image: url('../Imagens/testeg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.agrupamento-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+    gap: 50px;
+}
+
+
+.agrupamento-banner figure {
+    width: 550px;
+    height: auto;
+    margin-top: 55px;
+}
+
+.agrupamento-banner figure img {
+    width: 100%;
+    height: 100%;
+}
+
+.agrupamento-banner .texto-banner {
+    height: auto;
+    margin: 350px auto;
+}
+
+.agrupamento-banner .texto-banner h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #e8eef2;
+    text-shadow: #1d4c5c 2px 2px 4px;
+}
+/* BANNER */
+
+/* SOBRE */
+main {
+    background-image: url('../Imagens/TesteFundo.jpg');
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 35px;
+    color: #3d5d6f;
+    text-shadow: #ffffff 2px 2px 4px;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+h2::before {
+  content: "";
+  width: 40px;
+  height: 7px;
+  background-color: #3d5d6f;
+  border: #ffffff 1px solid;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 25%;
+  left: calc(50% - 25px);
+}
+
+p {
+    font-size: 20px;
+    color: #5b9d88;
+    text-align: justify;
+    line-height: 1.6;
+    text-shadow: #ffffff 2px 2px 4px;
+    padding: 0 20px 30px 20px;
+}
+/* SOBRE  equipe */
+main .agrupamento-equipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.agrupamento-equipe .descricao-equipe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.agrupamento-equipe .descricao-equipe figure {
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.agrupamento-equipe .descricao-equipe figure img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.descricao-equipe figure figcaption {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    text-shadow: #5b9d88 2px 2px 4px;
+    padding-top: 10px;
+}
+/* SOBRE  equipe */
+/* SOBRE */
+
+/* CONTATO */
+.container-contato {
+    background-image: url('../Imagens/FundoLocal.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    height: auto;
+    display: flex;
+}
+
+.grupo_redessociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.container .mapa {
+    max-width: 1000px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+iframe {
+    width: 100%;
+    height: 450px; 
+    padding-bottom: 50px;
+    position: relative;
+}
+
+/* CONTATO */
+

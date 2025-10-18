@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.limitador {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* TOPO */
+header {
+    background-color: #f1f5f7;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.topo {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.imagemlogo-topo {
+    width: 90px;
+    height: 90px;
+}
+
+.imagemlogo-topo img {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a:hover {
+    background-color: #1d4c5c;
+    color: #e8eef2;
+    border-radius: 10px;
+    padding: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.topo nav {
+    align-items: flex-end;
+}
+
+nav a {
+    color: #3d5d6f;
+    font-weight: 500;
+    font-size: 20px;
+}
+/* TOPO */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+/* RODAPÉ */
+footer {
+    height: 200px;
+    background-color: #f1f5f7;
+    color: #5b9d88;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.agrupamento-footer {
+    max-width: 450px;
+    height: auto;
+    margin: 10px auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.agrupamento-footer p {
+    font-size: 16px;
+    color: #5b9d88;
+    left: 50%;
+}
+
+.agrupamento-footer figure {
+    width: 70px;
+    height: 70px;
+}    
+
+.agrupamento-footer figure img {
+    width: 100%;
+    height: 100%;
+}
+
+footer p {
+    margin: 5px auto;
+    text-align: center;
+    font-size: 14px;
+}
+/* RODAPÉ */
+
+/* ÍCONE */
+.ico {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+.ico img {
+    width: 100%;
+    height: 100%;
+}
+/* ÍCONE */

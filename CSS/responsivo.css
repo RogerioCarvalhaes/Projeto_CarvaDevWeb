@@ -1,0 +1,139 @@
+@media (max-width: 465px) {
+    /* CABEÇALHO*/
+    header {
+        width: 100%;
+        height: auto;
+        display: flex;   
+    }
+
+    .topo {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .topo nav {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        padding: 10px 0;
+    }
+
+    .topo nav a {
+        font-size: 14px;
+        padding: 10px;
+    }
+    /* CABEÇALHO */
+
+    /* BANNER */
+    .container-banner .agrupamento-banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .agrupamento-banner figure {
+        display: none;
+    }
+
+    .agrupamento-banner .texto-banner {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 280px 0;
+    }
+
+    .agrupamento-banner .texto-banner h1 {
+        font-size: 30px;
+        padding: 0 10px;
+    }
+    /* BANNER */
+
+    /* SOBRE */
+    main p {
+        font-size: 14px;
+        text-align: center;
+        margin: 20px auto;
+        padding: 0 10px;
+    }
+    
+    /* SOBRE equipe*/
+    .agrupamento-equipe .descricao-equipe {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .agrupamento-equipe .descricao-equipe figure {
+        width: 115px;
+        height: 250px;
+        text-align: center;
+        margin: 0 auto;
+        padding: 20px 0;
+    }
+
+    .agrupamento-equipe .descricao-equipe figure img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .descricao-equipe figure figcaption {
+        width: auto;
+        font-size: 13px;
+        text-align: center;
+        margin: 0 auto 10px auto;
+    }
+    /* SOBRE equipe*/
+    /* SOBRE */
+
+    /* CONTATOS */
+    .grupo_redessociais {
+        gap: 10px;
+        margin: 0 auto 20px auto;
+    }
+
+    .grupo_redessociais a img {
+        width: 40px;
+        height: 40px;
+    }
+
+       .mapa iframe {
+        max-width: 100%;
+        height: 200px;
+        margin: 0 auto;
+        padding: 0 10px 20px 10px;
+    }
+    /* CONTATOS */
+
+    h2 {
+        font-size: 24px;
+        padding: 20px 0;
+    }
+
+    h2::before {
+        content: "";
+        width: 40px;
+        height: 7px;
+        background-color: #3d5d6f;
+        border: #ffffff 1px solid;
+        border-radius: 10px;
+        position: absolute;
+        bottom: 15%;
+        left: calc(50% - 25px);
+    }
+
+    .ico {
+        display: none;
+    }
+}
